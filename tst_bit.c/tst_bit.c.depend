@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1565633300 source:c:\users\matheus\desktop\engenharia eletrônica\2019.2\programação 2\atividades\tst_bit.c\main.c
+	<stdio.h>
+	<stdlib.h>
+
