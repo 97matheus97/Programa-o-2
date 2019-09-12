@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1568312014 source:c:\users\mateus\desktop\engenharia eletrônica\2019.2\programação2\curso de c\dadostot.c\dados.c
+	<stdio.h>
+	<stdlib.h>
+	"dados.h"
+	<string.h>
+
+1568309670 c:\users\mateus\desktop\engenharia eletrônica\2019.2\programação2\curso de c\dadostot.c\dados.h
+
+1568308370 source:c:\users\mateus\desktop\engenharia eletrônica\2019.2\programação2\curso de c\dadostot.c\main.c
+	<stdio.h>
+	<stdlib.h>
+	"dados.h"
+	<string.h>
+
