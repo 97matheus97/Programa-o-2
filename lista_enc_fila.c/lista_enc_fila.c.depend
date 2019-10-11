@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1568657469 source:c:\users\mateus\desktop\engenharia eletrônica\2019.2\programação2\curso de c\lista_enc_fila.c\main.c
+	<stdio.h>
+	"dados.h"
+	"fila.h"
+	"lista_enc.h"
+
+1568672387 c:\users\mateus\desktop\engenharia eletrônica\2019.2\programação2\curso de c\lista_enc_fila.c\dados.h
+	"fila.h"
+
+1568672431 c:\users\mateus\desktop\engenharia eletrônica\2019.2\programação2\curso de c\lista_enc_fila.c\fila.h
+
+1568554006 source:c:\users\mateus\desktop\engenharia eletrônica\2019.2\programação2\curso de c\lista_enc_fila.c\no.c
+	<stdio.h>
+	<stdlib.h>
+	"no.h"
+
+1568554035 c:\users\mateus\desktop\engenharia eletrônica\2019.2\programação2\curso de c\lista_enc_fila.c\no.h
+
+1568656908 source:c:\users\mateus\desktop\engenharia eletrônica\2019.2\programação2\curso de c\lista_enc_fila.c\dados.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fila.h"
+	"dados.h"
+	"no.h"
+
+1568656266 source:c:\users\mateus\desktop\engenharia eletrônica\2019.2\programação2\curso de c\lista_enc_fila.c\fila.c
+	<stdlib.h>
+	<stdio.h>
+	"lista_enc.h"
+	"no.h"
+	"fila.h"
+	"dados.h"
+
+1568672465 c:\users\mateus\desktop\engenharia eletrônica\2019.2\programação2\curso de c\lista_enc_fila.c\lista_enc.h
+	"no.h"
+
+1568655594 source:c:\users\mateus\desktop\engenharia eletrônica\2019.2\programação2\curso de c\lista_enc_fila.c\lista_enc.c
+	<stdio.h>
+	<stdlib.h>
+	"lista_enc.h"
+	"no.h"
+
