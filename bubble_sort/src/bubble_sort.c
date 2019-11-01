@@ -9,7 +9,7 @@ int main()
     int i;
     int n_linhas = 0;
     int tempo;
-    int clock_1, clock_2;
+    int clock_inicio, clock_final, clock_total;
 
     //dado_t *dados = ler_dados_csv("camera_temp.csv", &n_linhas);
     dado_t **dados = ler_dados_csv("camera_temp.csv", &n_linhas);
