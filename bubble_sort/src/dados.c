@@ -18,7 +18,7 @@ dado_t * criar_dado (int amostra, float temperatura, char * tempo)
     meu_novo_dado->amostra = amostra;
     meu_novo_dado->temperatura = temperatura;
     //meu_novo_dado->tempo = tempo;
-    // Colocar a criação dos dados aqui
+    // Colocar a criação dos dados aqui i
 
     strncpy(meu_novo_dado->tempo, tempo, 64);
     return meu_novo_dado;
