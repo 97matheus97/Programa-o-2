@@ -4,6 +4,8 @@
 #include "dados.h"
 #include <string.h>
 
+#include <time.h>
+#include <bubble_sort.h>
 int main()
 {
     int i;
