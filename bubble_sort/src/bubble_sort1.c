@@ -20,14 +20,13 @@ void bubble_sort(dado_t **dados, int elementos)
 	for(i = elementos; i > 1; i--){
 		for(j = 0; j < i - 1; j++){
 			if(dados[j]->temperatura > dados[j + 1]->temperatura)
-				swap(&dados[j], &dados[j + 1]);
+			   swap(&dados[j], &dados[j + 1]);
 		}
 	}
 
 }
 void swap(dado_t *dados, dado_t *dados)
 {
-
 	int aux;
 	int *p1, *p2;
 
@@ -36,9 +35,5 @@ void swap(dado_t *dados, dado_t *dados)
 	*p2 = aux;
 }
 
-void obter_tempo(int *v[])
-{
-
-}
 
 

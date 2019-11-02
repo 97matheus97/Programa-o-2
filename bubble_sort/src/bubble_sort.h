@@ -5,14 +5,14 @@
  *      Author: Mateus
  */
 
-#include "dados.h"
 #ifndef BUBBLE_SORT_H_
 #define BUBBLE_SORT_H_
+
+#include "dados.h"
 
 void bubble_sort(dado_t **dados, int elementos);
 
 void swap(dado_t *dados, dado_t *dados);
 
-void obter_tempo(int *v[]);
-
+clock_t clock(void);
 #endif /* BUBBLE_SORT_H_ */

@@ -90,7 +90,7 @@ int imprime_amostra(dado_t * dados)
 
 float imprime_temperatura(dado_t * dados)
 {
-    return(dados->amostra);
+    return(dados->temperatura);
 }
 
 char * imprime_tempo(dado_t * dados)
