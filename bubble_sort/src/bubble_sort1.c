@@ -29,6 +29,7 @@ void swap(dado_t *dados, dado_t *dados)
 {
 
 	int aux;
+	int *p1, *p2;
 
 	aux = *p1;
 	*p1 = *p2;

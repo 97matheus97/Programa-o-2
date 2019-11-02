@@ -11,7 +11,7 @@
 
 void bubble_sort(dado_t **dados, int elementos);
 
-void swap(dado_t *dado, dado_t *dado);
+void swap(dado_t *dados, dado_t *dados);
 
 void obter_tempo(int *v[]);
 
