@@ -5,10 +5,11 @@
 #include <string.h>
 
 #include <time.h>
-#include <bubble_sort.h>
+#include "bubble_sort.h"
 int main()
 {
     int i;
+    int j = 0;
     int n_linhas = 0;
     int tempo;
     int clock_inicio, clock_final, clock_total;
@@ -22,15 +23,20 @@ int main()
         //printf( "...", dados[i]->amostra, ... );
         printf("%d,%.1f,%s\n", imprime_amostra(dados[i]), imprime_temperatura(dados[i]), imprime_tempo(dados[i]));
     }
+    clock_inicio = clock();
 
-    clock_1 = obter_tempo();
+    printf("Iniciando o programa: %ld\n", clock_inicio);
 
-    bubble_sort();
+    for(j=0; j<n_linhas; j++){
 
-    clock_2 = obter_tempo();
+    }
 
-    tempo = clock_2 - clock_1;
+    clock_final = clock();
 
+    printf("Final: %ld\n", clock_final);
+
+    clock_total = (double)(clock_final - clock_inicio) / CLOCKS_PER_SEC;
+    printf("Tempo_Total: %f\n", clock_total);
 
     // liberar_dados();
     liberar_dados(dados, n_linhas);
