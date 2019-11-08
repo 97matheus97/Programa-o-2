@@ -11,29 +11,36 @@
 #include "dados.h"
 
 
-void bubble_sort(dado_t **dados, int elementos)
+void bubble_sort(dado_t **dados, int n_linhas)
 {
 	int i;
 	int j;
 
-
-	for(i = elementos; i > 1; i--){
+	for(i = n_linhas; i > 1; i--){
 		for(j = 0; j < i - 1; j++){
-			if(dados[j]->temperatura > dados[j + 1]->temperatura)
-			   swap(&dados[j], &dados[j + 1]);
+			if(dados[j]->temperatura > dados[j + 1]->temperatura){
+			   swap(dados, j, j + 1);
+			}
 		}
 	}
-
 }
-void swap(dado_t *dados, dado_t *dados)
+void swap(dado_t **dados, int i, int j)
 {
-	int aux;
-	int *p1, *p2;
 
-	aux = *p1;
-	*p1 = *p2;
-	*p2 = aux;
+	dado_t *temp = dados[i];  // ??????
+	dados[i] = dados[j];
+	dados[j] = temp;
 }
 
+/*void insert_sort_direta(dado_t **dados, int elementos)
+{
+	int i, j;
 
+	for(i=1; i<elementos; i++){
+		for(j=1;j>0 && dados[j-1] > dados[j]; j--){
+			swap(&dados[j], &dados[j-1]);
+		}
+	}
+}
 
+*/

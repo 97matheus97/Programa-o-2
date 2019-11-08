@@ -10,9 +10,12 @@
 
 #include "dados.h"
 
-void bubble_sort(dado_t **dados, int elementos);
+void bubble_sort(dado_t **dados, int n_linhas);
 
-void swap(dado_t *dados, dado_t *dados);
+void swap(dado_t **dados, int i, int j);
 
-clock_t clock(void);
+//void insert_sort_direta(dado_t **dados, int elemento);
+
+//void quick_sort();
+//clock_t clock(void);
 #endif /* BUBBLE_SORT_H_ */
