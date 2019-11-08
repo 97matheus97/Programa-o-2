@@ -23,6 +23,11 @@ float imprime_temperatura(dado_t * dados);
 
 char * imprime_tempo(dado_t * dados);
 
+void bubble_sort(dado_t **dados, int n_linhas);
+
+void swap(dado_t **dados, int i, int j);
+
+
 /* Outras funções aqui: fazer os comentários */
 
 #endif

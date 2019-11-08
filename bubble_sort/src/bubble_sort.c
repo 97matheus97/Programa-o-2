@@ -6,7 +6,6 @@
 #include <limits.h>
 #include <math.h>
 
-#include "bubble_sort.h"
 #include "dados.h"
 
 
@@ -44,7 +43,7 @@ int main()
 
     	printf("Final: %ld\n", clock_final);
 
-    	bubble_sort(dados, &n_linhas);
+    	bubble_sort(dados, n_linhas);
     	clock_total = (double)(clock_final - clock_inicio) / CLOCKS_PER_SEC;
     	printf("Tempo_Total: %g\n", clock_total);
 

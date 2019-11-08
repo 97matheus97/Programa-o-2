@@ -98,6 +98,26 @@ char * imprime_tempo(dado_t * dados)
     return(dados->tempo);
 }
 
+void bubble_sort(dado_t **dados, int n_linhas)
+{
+	int i;
+	int j;
+
+	for(i = n_linhas; i > 1; i--){
+		for(j = 0; j < i - 1; j++){
+			if(dados[j]->temperatura > dados[j + 1]->temperatura){
+			   swap(dados, j, j + 1);
+			}
+		}
+	}
+}
+void swap(dado_t **dados, int i, int j)
+{
+
+	dado_t *temp = dados[i];  // ??????
+	dados[i] = dados[j];
+	dados[j] = temp;
+}
 void liberar_dados(dado_t **dados, int n_linhas)
 {
     int i;
