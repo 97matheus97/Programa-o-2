@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1575304502 source:c:\users\mateus\desktop\engenharia eletronica\2019.2\programacao2\livros\projeto_final\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<limits.h>
+	<math.h>
+	"dados.h"
+
+1575225098 c:\users\mateus\desktop\engenharia eletronica\2019.2\programacao2\livros\projeto_final\dados.h
+
+1575377498 source:c:\users\mateus\desktop\engenharia eletronica\2019.2\programacao2\livros\projeto_final\dados.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"dados.h"
+
